@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_extra_large">32dp</dimen>
+    <dimen name="padding_screen_edge">24dp</dimen>
+    <dimen name="spacer_small">8dp</dimen>
+    <dimen name="spacer_medium">16dp</dimen>
+    <dimen name="spacer_large">24dp</dimen>
+    <dimen name="spacer_xl">40dp</dimen>
+    <dimen name="spacer_xxl">48dp</dimen>
+
+    <dimen name="corner_medium">12dp</dimen>
+    <dimen name="corner_large">16dp</dimen>
+    <dimen name="corner_bottom_sheet">24dp</dimen>
+    <dimen name="corner_capsule">100dp</dimen>
+
+    <dimen name="btn_height">56dp</dimen>
+    <dimen name="border_width">1dp</dimen>
+    <dimen name="avatar_size">40dp</dimen>
+    <dimen name="progress_size">20dp</dimen>
+    <dimen name="lobby_anim_box_height">200dp</dimen>
+
+    <dimen name="lottie_home_size">250dp</dimen>
+    <dimen name="lottie_lobby_size">180dp</dimen>
+    <dimen name="lottie_focus_size">280dp</dimen>
+
+    <dimen name="text_btn">18sp</dimen>
+    <dimen name="text_timer">64sp</dimen>
+    <dimen name="letter_spacing_code">4sp</dimen>
+    <dimen name="letter_spacing_timer">2sp</dimen>
+</resources>

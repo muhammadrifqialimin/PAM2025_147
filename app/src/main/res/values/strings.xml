@@ -1,0 +1,38 @@
+<resources>
+        <string name="app_name">MabarFokus</string>
+        <string name="app_slogan">Fokus bareng teman, produktif barengan!</string>
+        <string name="btn_play_again">Main Lagi</string>
+        <string name="btn_back_to_lobby">Kembali ke Lobby</string>
+
+        <string name="label_nickname">Nama Panggilan</string>
+        <string name="hint_nickname">Contoh: Budi</string>
+        <string name="btn_enter_lobby">Masuk ke Lobby</string>
+
+        <string name="title_start_session">Mulai Sesi</string>
+        <string name="greeting_lobby">Halo %1$s!!</string>
+        <string name="msg_no_connection">Menunggu Sinyal!</string>
+        <string name="title_lobby_room">Lobby Room</string>
+        <string name="icon_crown">👑</string>
+        <string name="btn_create_room">Buat Room Baru</string>
+        <string name="desc_create_room">Jadilah host dan atur waktunya</string>
+        <string name="label_have_code">Punya kode room?</string>
+        <string name="hint_room_code">A1B2C3</string>
+        <string name="btn_join">Join</string>
+        <string name="label_access_code">KODE AKSES</string>
+        <string name="cd_copy">Copy</string>
+        <string name="hint_tap_copy">Ketuk untuk menyalin</string>
+        <string name="title_team_focus">Tim Fokus</string>
+        <string name="suffix_you">(Kamu)</string>
+        <string name="label_host">Host Room</string>
+        <string name="label_set_duration">Atur Durasi (Menit)</string>
+        <string name="btn_start_focus">MULAI FOKUS SEKARANG</string>
+        <string name="msg_waiting_host">Menunggu host memulai...</string>
+        <string name="placeholder_code">...</string>
+
+        <string name="title_game_over">GAME OVER</string>
+        <string name="label_failed_by">Digagalkan oleh:</string>
+        <string name="placeholder_someone">Seseorang</string>
+        <string name="title_success">BERHASIL!</string>
+        <string name="msg_success">Sesi fokus selesai dengan sempurna.</string>
+        <string name="msg_warning_focus">Jangan keluar aplikasi</string>
+</resources>
