@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1022019292651",
+    "firebase_url": "https://mabarfokus-d445c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mabarfokus-d445c",
+    "storage_bucket": "mabarfokus-d445c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022019292651:android:ef541c72ac8a2254095dae",
+        "android_client_info": {
+          "package_name": "com.example.mabarfokus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2-989frA98ytULbC0vAujgV7FpzT2y-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
