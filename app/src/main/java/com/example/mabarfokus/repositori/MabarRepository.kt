@@ -21,7 +21,6 @@ interface MabarRepository {
     fun getRoomParticipants(roomId: String): Flow<List<User>>
 
     // Logic
-    // <--- UBAH TIPE DATA DI SINI (Int -> Double)
     suspend fun updateRoomStatus(roomId: String, status: String, durationInMinutes: Double = 25.0)
 
     suspend fun updateUserStatus(roomId: String, userId: String, status: String)

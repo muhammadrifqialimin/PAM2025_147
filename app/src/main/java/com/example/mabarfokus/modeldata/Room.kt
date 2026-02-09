@@ -5,7 +5,6 @@ import com.google.firebase.database.PropertyName
 
 @IgnoreExtraProperties
 data class Room(
-    // UBAH SEMUA 'val' JADI 'var'
 
     @get:PropertyName("room_id") @set:PropertyName("room_id")
     var roomId: String = "",

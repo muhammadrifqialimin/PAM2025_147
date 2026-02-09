@@ -10,13 +10,12 @@ import androidx.compose.ui.platform.LocalContext
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.callbackFlow
 
-// Fungsi Composable praktis untuk memantau status koneksi
 @Composable
 fun rememberConnectivityState(): ConnectionState {
     val context = LocalContext.current
     val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
 
-    // State awal (anggap connected dulu biar gak kaget)
+    // State awal
     val isConnected = remember { mutableStateOf(ConnectionState.Available) }
 
     DisposableEffect(Unit) {

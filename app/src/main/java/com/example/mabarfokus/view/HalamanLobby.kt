@@ -63,7 +63,6 @@ fun HalamanLobby(
     Scaffold(
         containerColor = MaterialTheme.colorScheme.surface
     ) { innerPadding ->
-        // Column Induk (Tanpa Padding Horizontal) agar Banner Full Width
         Column(
             modifier = Modifier
                 .padding(innerPadding)
@@ -105,7 +104,6 @@ fun HalamanLobby(
                 if (roomState == null) {
                     // --- STATE 1: BELUM MASUK ROOM ---
 
-                    // Sapaan Personal
                     Text(
                         text = stringResource(id = R.string.greeting_lobby, viewModel.currentNickname),
                         style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.ExtraBold),

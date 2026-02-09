@@ -19,7 +19,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             MabarFokusTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // Memanggil MabarApp dengan modifier padding dari Scaffold
                     MabarApp(
                         modifier = Modifier.padding(innerPadding)
                     )

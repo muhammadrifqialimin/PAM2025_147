@@ -5,7 +5,6 @@ import com.google.firebase.database.PropertyName
 
 @IgnoreExtraProperties
 data class User(
-    // UBAH SEMUA 'val' JADI 'var'
 
     @get:PropertyName("user_id") @set:PropertyName("user_id")
     var userId: String = "",

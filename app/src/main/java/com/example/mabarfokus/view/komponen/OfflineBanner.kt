@@ -36,13 +36,11 @@ fun OfflineBanner() {
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .background(Color.Red) // Warna Merah Warning
-                .padding(8.dp), // Hardcode padding kecil saja biar compact
+                .background(Color.Red)
+                .padding(8.dp),
             contentAlignment = Alignment.Center
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                // Ikon Warning (Opsional, pakai icon bawaan android kalau blm ada library icon)
-                // Icon(imageVector = Icons.Default.Warning, contentDescription = null, tint = Color.White)
 
                 Text(
                     text = stringResource(id = R.string.msg_no_connection),

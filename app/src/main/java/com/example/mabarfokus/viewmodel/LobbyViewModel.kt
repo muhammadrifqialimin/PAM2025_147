@@ -22,13 +22,10 @@ class LobbyViewModel(private val repository: MabarRepository) : ViewModel() {
     private val _uiMessage = MutableStateFlow<String?>(null)
     val uiMessage: StateFlow<String?> = _uiMessage.asStateFlow()
 
-    // ID User sendiri untuk pengecekan Host/Guest di UI
     val currentUserId: String = repository.getCurrentUserId()
 
-    // --- BARU: Menyediakan Nickname untuk UI Sapaan ---
     val currentNickname: String = repository.getCachedNickname()
 
-    // --- FUNGSI CREATE ROOM ---
     fun createRoom(ignoredName: String = "") {
         viewModelScope.launch {
             _uiMessage.value = "Sedang membuat room..."
@@ -36,7 +33,6 @@ class LobbyViewModel(private val repository: MabarRepository) : ViewModel() {
             // Panggil repo
             repository.createRoom("")
                 .onSuccess { roomId ->
-                    // Langsung monitoring (JANGAN panggil joinRoom lagi agar status Host tidak tertimpa)
                     startMonitoringRoom(roomId)
                     _uiMessage.value = null
                 }

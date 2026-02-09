@@ -8,7 +8,6 @@ import androidx.lifecycle.viewModelScope
 import com.example.mabarfokus.repositori.MabarRepository
 import kotlinx.coroutines.launch
 
-// Status UI (Opsional, tapi bagus untuk loading)
 sealed interface HomeUiState {
     object Idle : HomeUiState
     object Loading : HomeUiState

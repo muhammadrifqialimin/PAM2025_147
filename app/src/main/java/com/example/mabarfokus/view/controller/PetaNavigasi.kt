@@ -56,9 +56,6 @@ fun MabarApp(
                     onNavigateToHome = {
                         // Kita navigasi ke LOBBY (bukan Home/Login)
                         navController.navigate(DestinasiLobby.route) {
-                            // "popUpTo inclusive = true" artinya:
-                            // Hapus Lobby yang lama (yang berisi data room sebelumnya)
-                            // Supaya saat masuk Lobby lagi, tampilannya bersih (Input Kode)
                             popUpTo(DestinasiLobby.route) {
                                 inclusive = true
                             }
